@@ -26,7 +26,6 @@ public class PreviousStation {
         this.previousStation = previousStation;
         this.distance = distance;
     }
-
     @Override
     public String toString() {
         return "PreviousStation{" +
