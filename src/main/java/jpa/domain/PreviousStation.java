@@ -17,12 +17,12 @@ public class PreviousStation {
     @JoinColumn(name = "previous_station_id")
     private Station previousStation;
 
-    private Integer distance;
+    private int distance;
 
     public PreviousStation() {
     }
 
-    public PreviousStation(Station previousStation, Integer distance) {
+    public PreviousStation(Station previousStation, int distance) {
         this.previousStation = previousStation;
         this.distance = distance;
     }
